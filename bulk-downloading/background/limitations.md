@@ -1,10 +1,8 @@
 # Limitations
 
-## iOS Support
+## Android Only Support
 
 Unfortunately, background downloading is available on Android only, due to the strict limitations imposed by iOS. This is unlikely to change in the future, especially as I am currently unable to develop for iOS.
-
-iOS users must still carry out the [Additional Setup](../../get-started/setup.md) instructions to prevent build and runtime failures.
 
 ## Background Processes
 
@@ -18,7 +16,7 @@ Therefore there is no guaranteed behaviour when using this functionality. You ca
 
 To try and help your users get to the right settings quicker, use the `requestIgnoreBatteryOptimizations()` method before starting a background download. This will interrupt the app with either a dialog or a settings page where they can opt-in to reduced throttling. There is no guarantee that this will work, but it should help: this is not required and the background download will still _try_ to run even if the user denies the permissions.
 
-If the download doesn't start, your app may be being throttled by the system already. Try setting `useAltMethod` to `true` in this case, or fallback to downloading in the foreground.
+Internally, a foreground service is actually used. This allows the service to run as long as the app hasn't been force stopped.
 
 ## Recovery Effectiveness
 
