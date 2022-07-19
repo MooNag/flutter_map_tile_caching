@@ -21,6 +21,6 @@ import 'package:flutter_map_tile_caching/flutter_map_tile_caching.dart';
 
 void main() async {
     FlutterMapTileCaching.initialise(await RootDirectory.normalCache);
-    final FMTC fmtc = FMTC.instance;
+    FMTC.instance; // Now available from anywhere
 }
 ```

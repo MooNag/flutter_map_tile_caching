@@ -14,7 +14,3 @@ This package relies on a carefully constructed structure that can be easily dama
 
 Avoid using `access`. If you choose to use it within your application, I may be unable to offer support.
 {% endhint %}
-
-## Available APIs
-
-Documentation to be completed.

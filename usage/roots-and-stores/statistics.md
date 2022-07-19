@@ -11,15 +11,17 @@ FlutterMapTileCaching.instance('storeName').stats;
 
 ## Available APIs
 
-| API                                                           | Structure | Explanation                                                                 |
-| ------------------------------------------------------------- | --------- | --------------------------------------------------------------------------- |
-| ``[`watchChanges()`](statistics.md#undefined)``               | Both      | Use a filesystem watcher to watch for changes, useful for a `StreamBuilder` |
-| ``[`invalidateCachedStatistics()`](statistics.md#undefined)`` | Both      | Remove any cached statistic information                                     |
-| `storesAvailable`                                             | Roots     | List all the currently ready stores under the root                          |
-| `rootSize`                                                    | Roots     | Get the current root size in KiB including all sub-stores                   |
-| `rootLength`                                                  | Roots     | Get the number of tiles currently cached in all sub-stores                  |
-| `storeSize`                                                   | Stores    | Get the current store size in KiB                                           |
-| `storeLength`                                                 | Stores    | Get the number of tiles currently cached                                    |
+| API Method/Getter                                                 | Structure | Explanation                                                                 |
+| ----------------------------------------------------------------- | --------- | --------------------------------------------------------------------------- |
+| [`watchChanges()`](statistics.md#watch-for-changes)``             | Both      | Use a filesystem watcher to watch for changes, useful for a `StreamBuilder` |
+| [`invalidateCachedStatistics()`](statistics.md#statistic-caching) | Both      | Remove any cached statistic information                                     |
+| `storesAvailable`                                                 | Roots     | List all the currently ready stores under the root                          |
+| `rootSize`                                                        | Roots     | Get the current root size in KiB including all sub-stores                   |
+| `rootLength`                                                      | Roots     | Get the number of tiles currently cached in all sub-stores                  |
+| `storeSize`                                                       | Stores    | Get the current store size in KiB                                           |
+| `storeLength`                                                     | Stores    | Get the number of tiles currently cached                                    |
+| `cacheHits`                                                       | Stores    | Get the number of tiles retrieved from the store during browsing            |
+| `cacheMisses`                                                     | Stores    | Get the number of tiles not retrieved from the store during browsing        |
 
 ### Watch For Changes
 

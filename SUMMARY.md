@@ -20,6 +20,7 @@
   * [Download](usage/roots-and-stores/download.md)
   * [Metadata](usage/roots-and-stores/metadata.md)
   * [Access (advanced)](usage/roots-and-stores/access.md)
+* [Migration From Older Versions](usage/migration-from-older-versions.md)
 * [flutter\_map Integration](usage/integration.md)
 
 ## Bulk Downloading
