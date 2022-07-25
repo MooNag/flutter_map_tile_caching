@@ -10,29 +10,35 @@ By using the example application, you must comply to your tile server's ToS.
 OpenStreetMap's (the default throughout the application) can be [found here](https://operations.osmfoundation.org/policies/tiles). If you cannot comply to these rules, you should find one that you can comply to and get the appropriate source URL (which can be customised in the application).
 {% endhint %}
 
-## Android
+## Available Downloads
 
-{% file src="../.gitbook/assets/AndroidExampleApplication.apk" %}
-.apk Example Application
-{% endfile %}
+{% embed url="https://drive.google.com/drive/folders/1hBYYaZVUYgXyCEinARLuOE8SAIaV94kM" %}
+Available Android Example Applications
+{% endembed %}
 
-To run the prebuilt Android application on most devices, download the above file to your device and execute it to install it.
+## Installation Guides
 
+### Android
+
+To run the prebuilt Android application on most devices, download the appropriate .apk package (from [Available Downloads](example.md#available-downloads)) to your device, then execute it to install it.
+
+To install the app, execute the file. After installation, it will appear in the launcher like any other application.
+
+{% hint style="info" %}
 The operating system may request permissions to install applications from unknown sources: you must allow this.
+{% endhint %}
 
-After installation, it will appear in the launcher like any other application.
+### Windows
 
-## Windows
-
-{% file src="../.gitbook/assets/WindowsExampleApplication.zip" %}
-Zipped Example Application
-{% endfile %}
-
-To run the prebuilt Windows application, download the above archive and extract it to a suitable location on your system.
+To run the prebuilt Windows application, download the appropriate .zip archive (from [Available Downloads](example.md#available-downloads)) and extract it to a suitable location on your system.
 
 Then run the 'example.exe' program it contains: it does not require any installation.
 
-## Other Platforms
+{% hint style="info" %}
+You may receive security warnings depending on your system setup: these are false positives.
+{% endhint %}
+
+### Other Platforms
 
 For other platforms, there are no prebuilt applications.
 
