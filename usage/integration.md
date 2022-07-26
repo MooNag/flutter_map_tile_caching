@@ -12,15 +12,15 @@ TileLayerOptions(
 
 ## Tile Provider Settings
 
-The method optionally takes a `FMTCTileProviderSettings` to override any defaults, whether the package default, or the default set in the initialisation function.
+The method optionally takes a `FMTCTileProviderSettings` to override any defaults, whether the package default, or the default set in [global-settings.md](global-settings.md "mention").
 
 `FMTCTileProviderSettings` can take the following arguments:
 
-| Parameter             | Type                                            | Explanation                                                                          | Default                    |
-| --------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------- |
-| `behavior`            | ``[`CacheBehavior`](integration.md#undefined)`` | Logic used for storage and retrieval of tiles                                        | `CacheBehavior.cacheFirst` |
-| `cachedValidDuration` | `Duration`                                      | Duration until a tile expires and needs to be fetched again                          | `const Duration(days: 16)` |
-| `maxStoreLength`      | `int`                                           | Maximum number of tiles allowed in a cache store before the oldest tile gets deleted | `0`: disabled              |
+| Parameter             | Type                                                 | Explanation                                                                          | Default                    |
+| --------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------- |
+| `behavior`            | ``[`CacheBehavior`](integration.md#cache-behavior)`` | Logic used for storage and retrieval of tiles                                        | `CacheBehavior.cacheFirst` |
+| `cachedValidDuration` | `Duration`                                           | Duration until a tile expires and needs to be fetched again                          | `const Duration(days: 16)` |
+| `maxStoreLength`      | `int`                                                | Maximum number of tiles allowed in a cache store before the oldest tile gets deleted | `0`: disabled              |
 
 ### Cache Behavior
 

@@ -10,7 +10,10 @@ See this basic example:
 final downloadable = region.toDownloadable(
     1, // Minimum Zoom
     18, // Maximum Zoom
-    TileLayerOptions(),
+    TileLayerOptions(
+        urlTemplate: '',
+    ),
+    // Additional Parameters
 ),
 ```
 

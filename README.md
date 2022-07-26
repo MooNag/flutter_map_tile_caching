@@ -4,7 +4,6 @@ description: >-
   ability to download map regions for offline use
 cover: .gitbook/assets/OpenStreetMap Screenshot.jpg
 coverY: -47.966226138032305
-layout: landing
 ---
 
 # flutter\_map\_tile\_caching

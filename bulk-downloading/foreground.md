@@ -7,3 +7,15 @@ OpenStreetMap's can be [found here](https://operations.osmfoundation.org/policie
 
 This package is not responsible for your misuse of another tile server.
 {% endhint %}
+
+```dart
+FMTC.instance('storeName').download.startForeground();
+```
+
+## Available Parameters
+
+| Parameter              | Type                                                                              | Explanation                                            | Default                                                           |
+| ---------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
+| `region`               | ``[`DownloadableRegion`](prepare.md)``                                            | The actual region to download                          | _required_                                                        |
+| `tileProviderSettings` | ``[`FMTCTileProviderSettings?`](../usage/integration.md#tile-provider-settings)`` | Settings for the downloader tile provider to use       | As in [global-settings.md](../usage/global-settings.md "mention") |
+| `disableRecovery`      | `bool`                                                                            | Disable the built-in recovery system (not recommended) | `false`                                                           |
