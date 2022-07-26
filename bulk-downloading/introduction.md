@@ -23,12 +23,12 @@ This package is not responsible for your misuse of another tile server.
 
 All APIs listed in this section are children of the [`download` getter](../usage/roots-and-stores/download.md).
 
-| API                                      | Explanation                                   |
-| ---------------------------------------- | --------------------------------------------- |
-| ``[`startForeground()`](foreground.md)`` | Start a download in the foreground            |
-| ``[`startBackground()`](background/)``   | Start a download in the background            |
-| ``[`check()`](prepare.md)``              | Check the number of tiles in a certain region |
-| ``[`cancel()`](cancel-download.md)``     | Cancel any ongoing downloads                  |
+| API                                                  | Explanation                                   |
+| ---------------------------------------------------- | --------------------------------------------- |
+| ``[`startForeground()`](foreground.md)``             | Start a download in the foreground            |
+| ``[`startBackground()`](background/)``               | Start a download in the background            |
+| ``[`check()`](prepare.md#checking-number-of-tiles)`` | Check the number of tiles in a certain region |
+| ``[`cancel()`](cancel-download.md)``                 | Cancel any ongoing downloads                  |
 
 ## Recovery
 

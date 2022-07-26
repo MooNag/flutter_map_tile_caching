@@ -1,4 +1,4 @@
-# Example
+# Example Application
 
 This package contains a full example application - prebuilt for Android and Windows - showcasing the most important features of this package.
 
@@ -10,17 +10,17 @@ By using the example application, you must comply to your tile server's ToS.
 OpenStreetMap's (the default throughout the application) can be [found here](https://operations.osmfoundation.org/policies/tiles). If you cannot comply to these rules, you should find one that you can comply to and get the appropriate source URL (which can be customised in the application).
 {% endhint %}
 
-## Available Downloads
+## Prebuilt Example Applications
 
 {% embed url="https://drive.google.com/drive/folders/1hBYYaZVUYgXyCEinARLuOE8SAIaV94kM" %}
-Available Android Example Applications
+Prebuilt Example Applications (Google Drive Listing)
 {% endembed %}
 
 ## Installation Guides
 
 ### Android
 
-To run the prebuilt Android application on most devices, download the appropriate .apk package (from [Available Downloads](example.md#available-downloads)) to your device, then execute it to install it.
+To run the prebuilt Android application on most devices, download the appropriate .apk package (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) to your device, then execute it to install it.
 
 To install the app, execute the file. After installation, it will appear in the launcher like any other application.
 
@@ -30,7 +30,7 @@ The operating system may request permissions to install applications from unknow
 
 ### Windows
 
-To run the prebuilt Windows application, download the appropriate .zip archive (from [Available Downloads](example.md#available-downloads)) and extract it to a suitable location on your system.
+To run the prebuilt Windows application, download the appropriate .zip archive (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) and extract it to a suitable location on your system.
 
 Then run the 'example.exe' program it contains: it does not require any installation.
 

@@ -2,7 +2,7 @@
 
 Creating regions is designed to be easy for the user and you (the developer).
 
-The [example application](../get-started/example.md) contains a great way you might want to allow your users to choose a region to download, and it shows how to use Provider to share a created region and the number of approximate tiles it has to a download screen.
+The [example application](../get-started/example-application.md) contains a great way you might want to allow your users to choose a region to download, and it shows how to use Provider to share a created region and the number of approximate tiles it has to a download screen.
 
 ## Types Of Region
 

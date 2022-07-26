@@ -6,8 +6,8 @@
 
 * [Installation](get-started/installation.md)
 * [Additional Setup](get-started/setup.md)
-* [Example](get-started/example.md)
-* [Basic Terminology](get-started/basic-terminology.md)
+* [Example Application](get-started/example-application.md)
+* [Basic Terminology](usage/basic-terminology.md)
 
 ## Usage
 
