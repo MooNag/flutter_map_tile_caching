@@ -68,12 +68,15 @@ Visit the GitHub repository
 Visit the pub.dev package listing
 {% endembed %}
 
-## Donate To Me
+## Supporting Me
 
-If you have any spare change, I greatly appreciate any amount! Please follow one of the links below:
+I'm an under-18 currently living in the UK, and I am in full-time education. I work on this project and all of my others in my spare time, and I currently have no stable income due to my age - although I aspire to work in software/mobile development in the future.
 
-* GitHub Sponsors (preferred): [https://github.com/sponsors/JaffaKetchup](https://github.com/sponsors/JaffaKetchup)
-* Ko-fi: [https://ko-fi.com/JaffaKetchup](https://ko-fi.com/JaffaKetchup)
+If you have any change to spare, I'd be grateful for any amount, big or small :D. Every donation gives me 'mental fuel' to continue this project, and lets me know that I'm doing a good job. I'll be happy to give you a place on the documentation website's credits, and a shoutout in every release/CHANGELOG.
+
+You can read more about me and what I do on my [GitHub Sponsors](https://github.com/sponsors/JaffaKetchup) page, where you can donate as well.
+
+Alternatively, if you prefer not to use GitHub Sponsors, please feel free to use my [Ko-fi](https://ko-fi.com/jaffaketchup). Note that the PayPal backend will take a small percentage amount of donations made through this method.
 
 ## Get Help
 
