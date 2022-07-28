@@ -12,15 +12,17 @@ OpenStreetMap's (the default throughout the application) can be [found here](htt
 
 ## Prebuilt Example Applications
 
-{% embed url="https://drive.google.com/drive/folders/1hBYYaZVUYgXyCEinARLuOE8SAIaV94kM" %}
-Prebuilt Example Applications (Google Drive Listing)
+There are prebuilt applications for Android and Windows available on GitHub. These are automatically built (using GitHub Actions) using the latest available commits every time the example source files change, so may include functionality not yet available via pub.dev installation.
+
+{% embed url="https://github.com/JaffaKetchup/flutter_map_tile_caching/tree/main/prebuiltExampleApplications" %}
+Link To External GitHub Directory
 {% endembed %}
 
 ## Installation Guides
 
 ### Android
 
-To run the prebuilt Android application on most devices, download the appropriate .apk package (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) to your device, then execute it to install it.
+To run the prebuilt Android application on most devices, download the .apk package (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) to your device, then execute it to install it.
 
 To install the app, execute the file. After installation, it will appear in the launcher like any other application.
 
@@ -30,7 +32,7 @@ The operating system may request permissions to install applications from unknow
 
 ### Windows
 
-To run the prebuilt Windows application, download the appropriate .zip archive (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) and extract it to a suitable location on your system.
+To run the prebuilt Windows application, download the .zip archive (from [#prebuilt-example-applications](example-application.md#prebuilt-example-applications "mention")) and extract it to a suitable location on your system.
 
 Then run the 'example.exe' program it contains: it does not require any installation.
 
