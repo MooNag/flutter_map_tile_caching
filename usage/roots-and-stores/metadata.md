@@ -4,11 +4,11 @@ description: Applies only to Stores
 
 # Metadata
 
-This library provides a very simple persistent key-value pair storage system, designed to store any custom information about the store. For example, your application may use one store per `templateUrl`, in which case, the URL can be stored in the metadata.
-
 ```dart
 FlutterMapTileCaching.instance('storeName').metadata;
 ```
+
+This library provides a very simple persistent key-value pair storage system, designed to store any custom information about the store. For example, your application may use one store per `templateUrl`, in which case, the URL can be stored in the metadata.
 
 ## Add
 

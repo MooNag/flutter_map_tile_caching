@@ -18,10 +18,10 @@
   * [Download](usage/roots-and-stores/download.md)
   * [Metadata](usage/roots-and-stores/metadata.md)
   * [Recovery](usage/roots-and-stores/recovery.md)
+  * [Migrator](usage/roots-and-stores/migrator.md)
   * [Access (advanced)](usage/roots-and-stores/access.md)
-* [Migration From Older Versions](usage/migration-from-older-versions.md)
-* [Global Settings](usage/global-settings.md)
 * [flutter\_map Integration](usage/integration.md)
+* [Global Settings](usage/global-settings.md)
 * [Full API Reference](https://pub.dev/documentation/flutter\_map\_tile\_caching/latest/flutter\_map\_tile\_caching/flutter\_map\_tile\_caching-library.html)
 
 ## Bulk Downloading
@@ -34,10 +34,6 @@
   * [Limitations](bulk-downloading/background/limitations.md)
 * [4⃣ Listen For Progress](bulk-downloading/progress.md)
 * [Cancel Download](bulk-downloading/cancel-download.md)
-
-## Recovery
-
-* [Introduction](recovery/introduction.md)
 
 ***
 

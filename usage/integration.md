@@ -12,7 +12,7 @@ TileLayerOptions(
 
 ## Tile Provider Settings
 
-The method optionally takes a `FMTCTileProviderSettings` to override any defaults, whether the package default, or the default set in [global-settings.md](global-settings.md "mention").
+This method (and others) optionally take a `FMTCTileProviderSettings`. These configure the behaviour of the tile provider. Defaults to [#default-tile-provider-settings-defaulttileprovidersettings](global-settings.md#default-tile-provider-settings-defaulttileprovidersettings "mention"), or the package default (see table below) if that is not specified.
 
 `FMTCTileProviderSettings` can take the following arguments:
 

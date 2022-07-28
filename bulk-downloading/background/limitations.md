@@ -20,7 +20,7 @@ Internally, a foreground service is actually used. This allows the service to ru
 
 ## Recovery Effectiveness
 
-The effectiveness of the [recovery system](../../recovery/introduction.md) is reduced by background downloading.
+The effectiveness of the [recovery.md](../../usage/roots-and-stores/recovery.md "mention") is reduced by background downloading.
 
 If the user leaves the application, then the recovery system may report the ongoing background download as failed, as it has no way of knowing about it. If the user tries to retry the download, both downloads may then fail, and the recovery system may fail also.
 

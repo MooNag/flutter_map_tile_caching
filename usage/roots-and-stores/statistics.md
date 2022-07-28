@@ -5,7 +5,7 @@ description: Applies to Roots and Stores
 # Statistics
 
 ```dart
-FlutterMapTileCaching.rootDirectory.stats;
+FlutterMapTileCaching.instance.rootDirectory.stats;
 FlutterMapTileCaching.instance('storeName').stats;
 ```
 

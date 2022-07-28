@@ -5,7 +5,7 @@ description: Applies to Roots and Stores
 # Access (advanced)
 
 ```dart
-FlutterMapTileCaching.rootDirectory.access;
+FlutterMapTileCaching.instance.rootDirectory.access;
 FlutterMapTileCaching.instance('storeName').access;
 ```
 

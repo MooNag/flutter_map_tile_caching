@@ -51,6 +51,7 @@ To use them, if available, just add 'Async' to the end of the method/getter. For
 | ``[`manage`](manage.md)``     | Both      | Perform management tasks, such as creation and deletion                                   |
 | ``[`stats`](statistics.md)``  | Both      | Retrieve statistics, such as size and length                                              |
 | ``[`recovery`](recovery.md)`` | Roots     | Manage bulk download recovery                                                             |
+| ``[`migrator`](migrator.md)`` | Roots     | Migrate the incompatible file structure of an older version to a newer version            |
 | ``[`download`](download.md)`` | Stores    | Manage bulk downloads                                                                     |
 | ``[`metadata`](metadata.md)`` | Stores    | Use a simple key-value pair store - suitable for storing simple store related information |
 

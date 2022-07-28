@@ -5,7 +5,7 @@ description: Applies to Roots and Stores
 # Manage
 
 ```dart
-FlutterMapTileCaching.rootDirectory.manage;
+FlutterMapTileCaching.instance.rootDirectory.manage;
 FlutterMapTileCaching.instance('storeName').manage;
 ```
 
