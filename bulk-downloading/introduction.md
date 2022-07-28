@@ -36,6 +36,6 @@ The recovery system is designed to support bulk downloading, and provide some fo
 
 Read more about the recovery system here:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../usage/roots-and-stores/recovery.md" %}
+[recovery.md](../usage/roots-and-stores/recovery.md)
 {% endcontent-ref %}
