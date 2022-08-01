@@ -40,9 +40,9 @@ Only use this if you cannot use asynchronous techniques in your current context,
 After this, you can chain any of the following:
 
 {% hint style="info" %}
-Many of the methods and getters beneath the ones listed here, for example those under `manage`, have asynchronous versions which are recommended for performance.
+Many of the methods and getters one level beneath the ones listed here, for example those under `manage`, have asynchronous versions which are recommended for performance.
 
-To use them, if available, just add 'Async' to the end of the method/getter. For example, `ready` and `readyAsync`.
+To use them, if available, just add 'Async' to the end of the method/getter. For example, `manage.ready` and `manage.readyAsync`.
 {% endhint %}
 
 | API Getter                    | Structure | Explanation                                                                               |
@@ -54,15 +54,21 @@ To use them, if available, just add 'Async' to the end of the method/getter. For
 | ``[`migrator`](migrator.md)`` | Roots     | Migrate the incompatible file structure of an older version to a newer version            |
 | ``[`download`](download.md)`` | Stores    | Manage bulk downloads                                                                     |
 | ``[`metadata`](metadata.md)`` | Stores    | Use a simple key-value pair store - suitable for storing simple store related information |
+|                               | Stores    | See [integration.md](../integration.md "mention")                                         |
+
+{% hint style="info" %}
+Technically, usage of these API methods/getters is optional. However, in practice, you are likely to need at least some of them for the most basic control - for example, store emptying at the user's request.
+{% endhint %}
 
 So, for example, to access statistics for a store, you might use:
 
 ```dart
-// Recommended if you are certain the store exists, or you don't need to perform actions with the store at this point
+// Ensure the library is initialised before using `instance`
+FlutterMapTileCaching.initialise(await RootDirectory.normalCache);
+
+// Recommended if you are certain the store exists, or you don't need to perform actions with the store's filesystem at this point
 final stats = FMTC.instance('storeName').stats;
 
-// Use only if you are not sure the store exists and you can't manually create it asynchronously
+// Use only if you are not sure the store exists and you can't manually create it asynchronously (not recommended)
 final stats = FMTC.instance['storeName'].stats;
 ```
-
-Technically, all of these API methods are optional and you may never have to use them in your app, although this is not recommended. Also note that the method to get a `TileProvider` for a Store is not included in this table: see [flutter\_map Integration](../integration.md).

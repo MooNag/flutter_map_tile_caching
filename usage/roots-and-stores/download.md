@@ -8,7 +8,7 @@ description: Applies only to Stores
 FlutterMapTileCaching.instance('storeName').download;
 ```
 
-For more information, see...
+For more information about bulk downloading (in both the foreground and background), see...
 
 {% content-ref url="../../bulk-downloading/introduction.md" %}
 [introduction.md](../../bulk-downloading/introduction.md)
