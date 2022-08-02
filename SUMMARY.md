@@ -38,3 +38,4 @@
 ***
 
 * [Credits](credits.md)
+* [Sponsors](sponsors.md)
