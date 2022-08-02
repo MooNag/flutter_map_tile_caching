@@ -16,8 +16,8 @@ This package is not responsible for your misuse of another tile server.
 
 1. [Create a region based on the user's input](regions.md)
 2. [Convert that region into a downloadable region](prepare.md)
-3. Start downloading that region, either in the [foreground](foreground.md) or [background](background/)
-4. [Listen for progress events to update your user](progress.md)
+3. Start downloading that region, either in the [foreground](foreground/) or [background](background/)
+4. [Listen for progress events to update your user](foreground/progress.md)
 
 ## Available APIs
 
@@ -25,7 +25,7 @@ All APIs listed in this section are children of the [`download` getter](../usage
 
 | API                                                  | Explanation                                   |
 | ---------------------------------------------------- | --------------------------------------------- |
-| ``[`startForeground()`](foreground.md)``             | Start a download in the foreground            |
+| ``[`startForeground()`](foreground/)``               | Start a download in the foreground            |
 | ``[`startBackground()`](background/)``               | Start a download in the background            |
 | ``[`check()`](prepare.md#checking-number-of-tiles)`` | Check the number of tiles in a certain region |
 | ``[`cancel()`](cancel-download.md)``                 | Cancel any ongoing downloads                  |

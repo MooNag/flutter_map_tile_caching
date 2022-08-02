@@ -1,8 +1,10 @@
 # Limitations
 
-## Android Only Support
+## Android Only
 
 Unfortunately, background downloading is available on Android only, due to the strict limitations imposed by iOS. This is unlikely to change in the future, especially as I am currently unable to develop for iOS.
+
+In addition, there is no planned support for other platforms.
 
 ## Background Processes
 
@@ -20,8 +22,14 @@ Internally, a foreground service is actually used. This allows the service to ru
 
 ## Recovery Effectiveness
 
-The effectiveness of the [recovery.md](../../usage/roots-and-stores/recovery.md "mention") is reduced by background downloading.
+The effectiveness of the [recovery.md](../../usage/roots-and-stores/recovery.md "mention") system is reduced by background downloading.
 
 If the user leaves the application, then the recovery system may report the ongoing background download as failed, as it has no way of knowing about it. If the user tries to retry the download, both downloads may then fail, and the recovery system may fail also.
 
 There is no way of resolving this situation. You may prefer to disable recovery on background downloads all together.
+
+## Progress Events
+
+Unlike foreground downloading, where you can [progress.md](../foreground/progress.md "mention"), background downloading does not provide any way to do this, so it is much less customisable.
+
+The download progress notification only displays the percentage progress and number of tiles attempted/max number of tiles (see [#available-statistics](../foreground/progress.md#available-statistics "mention")).

@@ -15,3 +15,7 @@ OpenStreetMap's can be [found here](https://operations.osmfoundation.org/policie
 
 This package is not responsible for your misuse of another tile server.
 {% endhint %}
+
+```dart
+FMTC.instance('storeName').download.startBackground();
+```

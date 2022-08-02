@@ -1,7 +1,11 @@
 # Basic Terminology
 
 {% hint style="info" %}
-If you don't understand the concept of map tiles and servers yet, you should first become familiar with these. Try reading through the ['flutter\_map' documentation](https://docs.fleaflet.dev/getting-started/explanation).
+If you aren't fully familiar with flutter\_map yet, you should first read through it's detailed documentation.
+
+{% embed url="https://docs.fleaflet.dev/" %}
+flutter\_map Documentation
+{% endembed %}
 {% endhint %}
 
 For development with this package, it is essential to become familiar with some terminology used throughout the documentation and API:

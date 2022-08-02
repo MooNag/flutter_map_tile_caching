@@ -29,10 +29,10 @@
 * [Introduction](bulk-downloading/introduction.md)
 * [1⃣ Create A Region](bulk-downloading/regions.md)
 * [2⃣ Prepare For Downloading](bulk-downloading/prepare.md)
-* [3⃣ Start In Foreground](bulk-downloading/foreground.md)
+* [3⃣ Start In Foreground](bulk-downloading/foreground/README.md)
+  * [4⃣ Listen For Progress](bulk-downloading/foreground/progress.md)
 * [3⃣ Start In Background](bulk-downloading/background/README.md)
   * [Limitations](bulk-downloading/background/limitations.md)
-* [4⃣ Listen For Progress](bulk-downloading/progress.md)
 * [Cancel Download](bulk-downloading/cancel-download.md)
 
 ***
